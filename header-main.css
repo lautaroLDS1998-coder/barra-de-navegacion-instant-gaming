@@ -1,0 +1,264 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+:root{
+--color-background: rgb(209, 209, 209);
+--variable-position: fixed;
+--color-another-options: #ff915a;
+--color-plataforms: #ffffff;
+}
+
+main{
+    display: flex;
+
+}
+nav{
+    display: inline;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+@media screen and (width:360px) {
+    body{
+        width: 30%;
+    }
+}
+body{
+    display: inline;
+    margin: 0;
+    font-family: proximanova, arial, sans-serif;
+    background-color: #272727;
+    background-color: darkseagreen;
+}
+
+/* dimensiones bar plataform */
+.button-navbar{
+    --height-element: 2px;
+    padding: .5px;
+    cursor: pointer;
+};
+
+/* estilos bar plataform */
+
+
+.icons-bar__plataforms__style{
+    height: 20px; 
+    
+}
+.icon-arrow{
+    height: 30px;
+    width:20px ;
+    /* transform: rotate(90deg); */
+}
+
+.logo-size__instant-g{
+    top: 10px;
+    height: 50px;
+    position: absolute;
+}
+
+.background-img__styles{
+    font-size: var(--responsive--size-min-width);
+    background-image: url(media/fondo-mbappe.jpg); 
+    background-size:contain;
+    filter: brightness(88%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+    width: 100%;
+    
+}
+.lupa-style{
+    background-color: #ff5400;
+    margin: -10px;
+    padding: 8px;
+    padding-inline-start: 11px;
+    border-radius: 40px;
+}
+.lupa-style:hover{
+    background-color: rgb(255, 211, 99);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+
+/* ----------------- compra fifa estilos--------------- */
+
+
+
+.article-buy{
+    display: flex;
+}
+
+
+
+
+
+.parr-buy--fifa__descrip{
+    text-align: center;
+    color:darkgray;
+}
+
+.nav-top {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    height: 20px;
+    padding-right: 10em;
+    padding-left:  10em;
+    width: 100%;
+    border-radius: 1.25em;
+    min-width: 929.6px;
+}
+.nav-top >*{
+    padding-right: 10px;
+}
+.nav-top a{
+    text-decoration: none;
+
+}
+.nav-top a:hover{
+    /* padding-left: 10px; */
+    /* background-color: rgba(0, 0, 0, 0.231); */
+    /* border-radius: 50px; */
+}
+
+
+/* letras internas nav top */
+
+
+
+.nav-top>*:hover{
+    color: var(--color-plataforms);
+    transition:  ease-in-out  .3s;
+    
+}
+/* .animation-height:hover::after{
+
+} */
+.nav-bar--styles{
+    backdrop-filter: blur(50px);
+    height: 60px;
+    /* padding: 0 50px; */
+    border-radius: 40px;
+    color: var(--color-background);
+}
+.nav-bar__size div{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* 
+@media screen and (width:1149px) {
+  
+} */
+
+.nav-bar--styles{
+    width: 35em;
+    max-width: 40em;
+    min-width: 20em;
+}
+.nav-bar__size{
+    display: flex;
+    /* width: 35em; */
+    /* padding:3px; */
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+
+.text-product{
+    height: 100px;
+}
+
+.nav-bar__size .button-navbar:hover{
+    color: var(--color-plataforms);
+    transition: ease-in-out .3s;
+}
+
+.img-mbappe__size{
+    top: 250px;
+    left: 60px;
+    position:absolute;
+    width: 40%; 
+    height: 50vh;
+    border-radius: 30px;
+    min-width: 150px;
+};
+
+.bar-menu{
+    max-width: 1028.44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+@media screen and (min-width: 400px){
+    body{
+        
+    }
+}
+
+/*----------- article main fifa ---------- */
+.descrip--fifa__position{
+    top: 60vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+    position: relative;
+    margin: 30px;
+    height: 6vh;
+    color: azure;
+    width: 30%;
+}
+
+
+.descrip--fifa__animation h2{
+    width: 16em;
+    height: 30px 2s ease-in-out;
+    /* display: inline; */
+    text-align: center;
+    height: 40px;
+    background-size: 300% 100%;
+    overflow: hidden;
+    background-image: linear-gradient(to right ,rgba(211, 91, 91, 0.749), rgba(62, 128, 193, 1), rgb(246, 142, 108), rgba(0, 128, 0, 0.678));
+}
+
+details{
+    cursor: pointer;
+    min-width: 465px;
+}
+details:hover{
+    color: #f15858;
+}
+.descrip--fifa__animation h2:hover{
+    cursor: pointer;
+    background-position: 100% 0;
+    transition: 2s ease;
+}
+.caja-responsiva{
+    /* top: 3000px; */
+    /* max-width:200px; */
+    width: 30vh;
+    height: 200px;
+    background-color: #f15858;
+};  
+
+.responsive-text{
+    display: inline;
+    min-width:500px ;
+    max-height:150px ;  
+    line-height: 1.8;
+}
